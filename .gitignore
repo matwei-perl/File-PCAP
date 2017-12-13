@@ -1,0 +1,11 @@
+blib
+_build
+Build
+File-PCAP-v[0-9]*
+Makefile
+Makefile.PL
+MANIFEST.bak
+MANIFEST.SKIP.bak
+META.json
+META.yml
+tmp

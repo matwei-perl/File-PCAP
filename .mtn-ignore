@@ -1,0 +1,13 @@
+^asa.pcap$
+^blib/$
+^blib$
+^_build/$
+^_build$
+^Build$
+^cover_db$
+^File-PCAP-
+^Makefile$
+^Makefile.PL$
+^META.json$
+^META.yml$
+^tmp$
