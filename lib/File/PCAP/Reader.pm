@@ -13,11 +13,11 @@ File::PCAP::Reader - read PCAP files with pure Perl
 
 =head1 VERSION
 
-Version v0.0.7
+Version v0.0.8
 
 =cut
 
-use version; our $VERSION = qv('v0.0.7');
+use version; our $VERSION = qv('v0.0.8');
 
 
 =head1 SYNOPSIS
@@ -205,6 +205,7 @@ sub _init {
     my $fname = $self->{fname};
     if ($fname) {
         if (open(my $fh, '<', $fname)) {
+            binmode $fh;
             $self->{fh} = $fh;
             $self->_read_pcap_global_header();
         }
