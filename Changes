@@ -1,5 +1,10 @@
 Revision history for File-PCAP
 
+v0.1.0 Sun Mar 10 10:35:32 CET 2019
+	- File::PCAP::ACAP2PCAP: use 'gmtime' and 'timegm' instead of
+	  'localtime' and 'timelocal' to determine startday
+	- fixes bug #128748, thanks to Slaven Rezić
+
 v0.0.8 Fri Mar  8 08:12:32 CET 2019
 	- File::PCAP::ACAP2PCAP: option 'startday' to set the starting
 	  day for the capture

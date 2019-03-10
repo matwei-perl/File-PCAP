@@ -33,7 +33,7 @@ if (open(my $fd, '<', 't/data/02-asa-clipped.dump')) {
 
   my $fpr = File::PCAP::Reader->new($fname);
   my $np  = $fpr->next_packet();
-  ok(1552049199 == $np->{ts_sec},"option startdate");
+  ok(1552052799 == $np->{ts_sec},"option startday");
 
   unlink $fname;
 }
