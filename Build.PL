@@ -18,7 +18,7 @@ my $builder = Module::Build->new(
     license             => 'artistic_2',
     meta_merge => {
         resources => {
-            repository => 'https://github.com/matwei/perl-File-PCAP',
+            repository => 'https://github.com/matwei-perl/File-PCAP',
             bugtracker => 'https://rt.cpan.org/Public/Dist/Display.html?Name=File-PCAP',
         }
     },
