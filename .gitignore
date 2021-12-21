@@ -8,4 +8,6 @@ MANIFEST.bak
 MANIFEST.SKIP.bak
 META.json
 META.yml
+MYMETA.json
+MYMETA.yml
 tmp
